@@ -6,7 +6,8 @@ class EmailNotification {
         this.title = title;
     }
     send(message) {
-        console.log(`Title: ${this.title}, Message: ${message}`);
+        console.log(`Title: ${this.title}
+Message: ${message}`);
     }
 }
 exports.EmailNotification = EmailNotification;
@@ -15,7 +16,8 @@ class SMSNotification {
         this.title = title;
     }
     send(message) {
-        console.log(`Title: ${this.title}, Message: ${message}`);
+        console.log(`Title: ${this.title}
+Message: ${message}`);
     }
 }
 exports.SMSNotification = SMSNotification;
@@ -24,7 +26,8 @@ class PushNotification {
         this.title = title;
     }
     send(message) {
-        console.log(`Title: ${this.title}, Message: ${message}`);
+        console.log(`Title: ${this.title}
+Message: ${message}`);
     }
 }
 exports.PushNotification = PushNotification;

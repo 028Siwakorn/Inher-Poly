@@ -10,7 +10,8 @@ class EmailNotification implements Notification {
         this.title = title
     }
     send(message: string): void {
-        console.log(`Title: ${this.title}, Message: ${message}`)
+        console.log(`Title: ${this.title}
+Message: ${message}`)
     }
 }
 
@@ -22,7 +23,8 @@ class SMSNotification implements Notification {
         this.title = title
     }
     send(message: string): void {
-        console.log(`Title: ${this.title}, Message: ${message}`)
+        console.log(`Title: ${this.title}
+Message: ${message}`)
     }
 }
 
@@ -34,7 +36,8 @@ class PushNotification implements Notification {
         this.title = title
     }
     send(message: string): void {
-        console.log(`Title: ${this.title}, Message: ${message}`)
+        console.log(`Title: ${this.title}
+Message: ${message}`)
     }
 }
 

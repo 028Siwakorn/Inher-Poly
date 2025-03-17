@@ -60,7 +60,7 @@ console.log("*************************** Notification **************************
 const emailNotification1 = new EmailNotification("ChatGPT outdated today")
 const smsNotification1 = new SMSNotification("Your Phone Number is expeiring in 2 days")
 const pushNotificatiob1 = new PushNotification("99+ Message You haven't read.")
-emailNotification1.send("ChatGPT outdated today : ( More Details Please Check it Out")
+emailNotification1.send("ChatGPT outdated today Nowadays There are many AI for generated for work or something more")
 smsNotification1.send("Please Pay The Bill.")
 pushNotificatiob1.send("Click To View Details.")
 console.log("********************************************************************************")
